@@ -1,6 +1,6 @@
 var currentTime = new Date().getHours();
 if (document.body) {
-    if (7 >= currentTime && currentTime > 20) {
+    if (7 <= currentTime && currentTime < 20) {
         document.body.background = "images/2.jpg";
     }
     else {
